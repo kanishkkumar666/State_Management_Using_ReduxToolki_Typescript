@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { value1 } from "../features/counter/apis";
+import { value1 } from "../features/counter/stateManager";
 
 const Second = () => {
   const dispatch = useDispatch();
